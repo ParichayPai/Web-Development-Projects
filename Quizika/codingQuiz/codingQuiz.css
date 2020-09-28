@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+body{
+    /* margin: 10px; */
+    /* padding: 20px; */
+    background-image: linear-gradient(to bottom, #ffffff, #e0fcff, #94ffff, #53ffef, #89ff98);
+}
+
+.dot{
+    font-size: 50px;
+    color: green;
+}
+
+.header{
+    padding: 10px;
+    /* width: 30%; */
+    margin: 5% 0% 5% 5%;
+}
+
+.bod{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

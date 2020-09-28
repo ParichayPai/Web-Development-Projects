@@ -1,0 +1,108 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Share Tech Mono', monospace; */
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+    width: 30%;
+    margin: 5% 0% 5% 5%;
+}
+
+header h1{
+    font-size: 50px; 
+    color: blue;
+}
+
+.dot{
+    font-size: 50px;
+    color: green;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    background-image: url(svg/bg2.svg);
+    
+}
+
+.quiz{
+    margin-left: 5%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box {
+box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+
+.image-container {
+height: 65%;
+width: 100%;
+
+border-radius: 5px;
+}
+
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.books {
+background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 193, 104, 1) 0%,
+    rgba(251, 128, 128, 1) 90%
+);
+}
+
+.coding {
+background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(10, 174, 227, 1) 0%,
+    rgba(124, 182, 255, 1) 100.2%
+);
+}
+
+.movie {
+background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(128, 248, 174, 1) 0%,
+    rgba(223, 244, 148, 1) 90%
+);
+}
+
+.box:hover {
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.type {
+margin: 3% 3% 1% 3%;
+color: navy;
+font-size: 24px;
+}
+
+.type-text {
+margin: 3%;
+font-size: 14px;
+color: gray;
+}
+  

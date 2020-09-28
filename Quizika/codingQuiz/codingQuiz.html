@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="codingQuiz.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <h1 class="header">A Quiz On Coding<span class="dot">!</span></h1>
+    <div class="bod">
+    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 1</div>
+        <div class="card-body">
+          <h5 class="card-title">Java is ____ language</h5>
+            <input type="radio" id="WT" name="typed" value="WT">
+            <label for="WT">Weakly typed</label><br>
+            <input type="radio" id="ST" name="typed" value="ST">
+            <label for="ST">Strongly typed</label><br>
+            <input type="radio" id="MT" name="typed" value="MT">
+            <label for="MT">Moderately typed</label><br>
+            <input type="radio" id="other" name="typed" value="other">
+            <label for="other">other</label> 
+        </div>
+      </div>
+      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 2</div>
+        <div class="card-body">
+          <h5 class="card-title"> Which is a valid keyword in java?</h5>
+          <input type="radio" id="interface" name="keyword" value="interface">
+          <label for="interface">interface</label><br>
+          <input type="radio" id="string" name="keyword" value="string">
+          <label for="string">string</label><br>
+          <input type="radio" id="Float" name="keyword" value="Float">
+          <label for="Float">Float</label><br>    
+          <input type="radio" id="unsigned" name="keyword" value="unsigned">
+          <label for="unsigned">unsigned</label>       
+        </div>
+      </div>
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 3</div>
+        <div class="card-body">
+          <h5 class="card-title"> Which one is a valid declaration of a boolean?</h5>
+          <input type="radio" id="b0" name="b" value="b1">
+          <label for="b1"> boolean b1 = 0;</label><br>
+          <input type="radio" id="b2" name="b" value="b2">
+          <label for="b2">boolean b2 = 'false';</label><br>
+          <input type="radio" id="b3" name="b" value="b3">
+          <label for="b3">boolean b3 = false;</label><br>    
+          <input type="radio" id="b4" name="b" value="b4">
+          <label for="b4">b4 = Boolean.false();</label>
+        </div>
+      </div>
+      <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 4</div>
+        <div class="card-body">
+          <h5 class="card-title">Which is a valid declarations of a String?  </h5>
+          <input type="radio" id="s1" name="s" value="s1">
+          <label for="s1">String s1 = null;</label><br>
+          <input type="radio" id="s2" name="s" value="s2">
+          <label for="s2">String s2 = 'null';</label><br>
+          <input type="radio" id="s3" name="s" value="s3">
+          <label for="s3">s3 = (String)'abc';</label><br>    
+          <input type="radio" id="s4" name="s" value="s4">
+          <label for="s4">s4 = (String)'\ufeed';</label>        
+        </div>
+      </div>
+      <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 5</div>
+        <div class="card-body">
+          <h5 class="card-title">What is the numerical range of a char?</h5>
+          <input type="radio" id="1" name="1" value="1">
+          <label for="1">-128 to 127</label><br>
+          <input type="radio" id="2" name="1" value="2">
+          <label for="2">-(215) to (215) - 1</label><br>
+          <input type="radio" id="" name="1" value="3">
+          <label for="3">0 to 32767</label><br>    
+          <input type="radio" id="" name="1" value="4">
+          <label for="4">0 to 65535</label>
+        </div>
+      </div>
+      <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 6</div>
+        <div class="card-body">
+          <h5 class="card-title">Size of int in Java is?</h5>
+          <input type="radio" id="16" name="int" value="16">
+          <label for="16">16 bit</label><br>
+          <input type="radio" id="32" name="int" value="32">
+          <label for="32">32 bit</label><br>
+          <input type="radio" id="64" name="int" value="64">
+          <label for="64">64 bit</label><br>    
+          <input type="radio" id="dep" name="int" value="dep">
+          <label for="dep">Depends on environment</label>
+        </div>
+      </div>
+      <div class="card bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 7</div>
+        <div class="card-body">
+          <h5 class="card-title">The implicit return type of a constructor is?</h5>
+          <input type="radio" id="void" name="constructor" value="void">
+          <label for="void">void</label><br>
+          <input type="radio" id="obj" name="constructor" value="obj">
+          <label for="obj">In the class object</label><br>
+          <input type="radio" id="no" name="constructor" value="no">
+          <label for="no">no return type</label><br>    
+          <input type="radio" id="None" name="constructor" value="None">
+          <label for="None">None</label>
+        </div>
+      </div>
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Question 8</div>
+        <div class="card-body">
+          <h5 class="card-title">What is the size of Double?</h5>
+          <input type="radio" id="2" name="double" value="2">
+          <label for="2">2 Bytes</label><br>
+          <input type="radio" id="4" name="double" value="4">
+          <label for="4">4 Bytes</label><br>
+          <input type="radio" id="6" name="double" value="6">
+          <label for="6">6 Bytes</label><br>    
+          <input type="radio" id="8" name="double" value="8">
+          <label for="8">8 Bytes</label>
+        </div>
+      </div>    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

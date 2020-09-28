@@ -1,0 +1,33 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px; 
+    font-family: 'Russo One', sans-serif;
+    color: rgba(255, 0, 0, 0.911);
+}
+
+.dot{
+    font-size: 50px;
+    color: green;
+}
+
+body{
+    height: 200%;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    background-image: linear-gradient(to bottom, #f9ff7f, #ebea67, #ded550, #d0c037, #c2ac1a);
+    
+}
+
+.li-float{
+    transition: transform .2s;
+}
+
+.li-float:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgb(245, 11, 42);
+}
