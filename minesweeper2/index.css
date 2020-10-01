@@ -1,0 +1,66 @@
+* {
+  font-family: "Kufam", cursive;
+  color: white;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: black;
+}
+
+#modalButton {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #040404,
+    #2b3141,
+    #3f6081,
+    #3d97c2,
+    #00d3ff
+  );
+}
+
+#grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.bombselected {
+  background-color: red;
+}
+
+.normalSelected {
+  background-color: green;
+}
+
+p {
+  margin: 0px;
+}
+
+#score {
+  margin-left: 2px;
+}
+
+#scorebox {
+  display: flex;
+  flex-direction: row;
+}
