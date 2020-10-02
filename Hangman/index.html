@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/065281acf5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="center">Hangman Game !!!</h1>
+      <h2 class="center">Press the keys on your keyboard to guess letters</h2>
+    </div>
+    <div class="Image">
+      <img src="hngman.gif" alt="Image" id="hangmanImage" />
+    </div>
+    <div id="Word"></div>
+
+    <div>
+      <div id="lives">
+        <p id="text">Lives Remaining: <p id="rem"></p> </p>
+      </div>
+    </div>
+    <div id="hint">
+      <p>HINT: The word starts with</p> <p id="letter1">_</p> <p>Ends with</p> <p id="letter2">_</p>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalBox" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <!--Modal-box-->
+    <div class="modal-content">
+      <div class="modal-header" class="center">
+        <h5 class="modal-title">Game Over</h5>
+        <!-- <button type="button" class="close" aria-label="Close" class="closeButton">
+          <span aria-hidden="true">&times;</span>
+        </button> -->
+      </div>
+      <div class="modal-body">
+        <img src="hangman.png" alt="hngman" style="height:300px;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" id="closeButton">Close</button>
+        <button type="button" class="btn btn-success" id="reload">Play Again</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
