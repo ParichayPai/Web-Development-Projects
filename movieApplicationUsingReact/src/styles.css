@@ -1,0 +1,26 @@
+.Center {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  background: #0f2027; /* fallback for old browsers */
+  background-image: linear-gradient(
+    to bottom,
+    #040404,
+    #113a55,
+    #00799a,
+    #00beb1,
+    #00ff90
+  );
+}
+.Container {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+button {
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+body {
+  margin: 0px;
+}
